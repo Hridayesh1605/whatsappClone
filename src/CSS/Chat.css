@@ -1,0 +1,137 @@
+.chat{
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header{
+    
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-bottom: 1px solid lightgray;
+    height: 12vh;
+    background-color: white;
+    
+}
+.chat-headerinfo{
+    flex: 1;
+    padding-left: 5%;
+    
+}
+.chat-headerinfo>p{
+    color: gray;
+}
+
+.chat-body{
+    position: relative;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-repeat: repeat;
+    background-position: center;
+    padding-top: 15px;
+    
+    flex: 1;
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+}
+
+.msg{
+    position: relative;
+    background-color: white;
+    margin-left: 50px;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+    
+}
+
+.msg > .rev{
+    font-size: 16px;
+    
+}
+.msg > .avatar{
+    position: absolute;
+    left: -20px;
+    top: 0px;
+   
+}
+.icon{
+    width: 20px !important;
+    height: 20px !important;
+
+}
+
+
+.chat-name>p{
+    position: absolute;
+    top: -1px;
+    font-size: xx-small;
+    font-weight: bold;
+    color: rgb(228, 55, 119);
+}
+
+.nam>p{
+    color: blue;
+}
+
+.chat-message{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+/* .avatar{
+    margin-left: 10px;
+} */
+
+.chat-recive{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+
+.chat-recive>.avatar{
+    display: none;
+}
+.chat-recive>.rev{
+    display: none;
+    color: blue;
+    
+}
+
+.chat-footer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 62px;
+}
+
+.chat-footer>form{
+    /* background-color: blue; */
+    flex: 1;
+    display: flex;
+}
+
+.chat-footer>form>input{
+    border: none;
+    flex: 1;
+    border-radius: 20px;
+    height: 40px;
+    padding-left: 10px;
+    
+}
+
+.chat-footer>.face{
+    position: absolute;
+    left: 750px;
+}
+
+.chat-footer>form>button{
+    display: none;
+
+}
+
+span{
+    font-size: xx-small;
+    color: rgb(160, 160, 160);
+    
+}
